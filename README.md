@@ -1,2 +1,2 @@
 # Short Inf 
-This project I will continue
+I will continue this project
