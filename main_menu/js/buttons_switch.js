@@ -17,7 +17,3 @@ for (let i = 0; i < button.length; i++) {
 
 
 }
-
-
-
- 
