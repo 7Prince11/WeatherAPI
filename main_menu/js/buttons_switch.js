@@ -14,6 +14,4 @@ for (let i = 0; i < button.length; i++) {
     button[3].addEventListener("click", () => {
         location.href = '../../astronomy/index.html';
     })
-
-
 }
