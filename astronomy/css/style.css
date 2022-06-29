@@ -6,6 +6,17 @@ li {
     list-style: none;
     color: white;
 }
+::-webkit-scrollbar {
+    width: 20px;
+    
+}
+
+::-webkit-scrollbar-track {
+    background: #dddddd;
+}
+::-webkit-scrollbar-thumb {
+    background: blue;
+}
 
 #container {
     background-color: lightblue;
@@ -44,6 +55,7 @@ footer {
     text-align: center;
     padding : 20px 0;
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
     border-bottom: 1px solid black;
     border-bottom-right-radius : 20px;
@@ -54,7 +66,7 @@ button{
     border-radius: 2em;
     padding : 1em;
     cursor: pointer;
-      
+    /* margin : 0 5px 0 5px; */
     outline: none;
 }
 button:hover {
@@ -70,7 +82,7 @@ a {
 
 }
 a:visited{
-    color: black;
+    color:black;
 }
 a:hover{
     color: white;
