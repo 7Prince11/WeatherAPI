@@ -66,6 +66,17 @@ section {
     background-color: #333;
 }
 
+::-webkit-scrollbar {
+    width: 20px;
+    
+}
+
+::-webkit-scrollbar-track {
+    background: #dddddd;
+}
+::-webkit-scrollbar-thumb {
+    background: blue;
+}
 
 
 h1 {
@@ -84,7 +95,7 @@ p {
 
 p:nth-of-type(1) {
     height: 25vh;
-    
+
 }
 
 button {
